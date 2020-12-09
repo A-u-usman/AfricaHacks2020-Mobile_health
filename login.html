@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- set the width-->
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <!-- load font family of webage from googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=karla:wght@400;700&display=swap" rel="stylesheet">
+    <!--spacify the title-->
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="script" href="js/bootstrap.js">
+    <link rel="script" href="js/bootstrap.bundle.js">
+    <link rel="script" href="js/bootstrap.bundle.min.js">
+    <link rel="script" href="js/bootstrap.min.js">
+    <link rel="script" href="jquery-3.5.1.slim.min.js">
+    <link rel="script" href="popper.min.js">
+
+    <style>
+        body{
+        
+		padding-bottom:4.2rem;
+		background:rgba(0, 0, 0, 0.76);
+        }
+        a{
+         text-decoration:none !important;
+         }
+         h1,h2,h3{
+         font-family: 'Kaushan Script', cursive;
+         }
+         .container{
+            padding-top:4.2rem;
+         }
+          .myform{
+        
+		position: relative;
+		display: -ms-flexbox;
+		display: flex;
+		padding: 1rem;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 100%;
+		pointer-events: auto;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: 1.1rem;
+		outline: 0;
+		max-width: 500px;
+		 }
+         .tx-tfm{
+         text-transform:uppercase;
+         }
+         .mybtn{
+         border-radius:50px;
+         }
+        
+         .login-or {
+         position: relative;
+         color: #aaa;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         }
+         .span-or {
+         display: block;
+         position: absolute;
+         left: 50%;
+         top: -2px;
+         margin-left: -25px;
+         background-color: #fff;
+         width: 50px;
+         text-align: center;
+         }
+         .hr-or {
+         height: 1px;
+         margin-top: 0px !important;
+         margin-bottom: 0px !important;
+         }
+         .google {
+         color:#666;
+         width:100%;
+         height:40px;
+         text-align:center;
+         outline:none;
+         border: 1px solid lightgrey;
+         }
+          form .error {
+         color: #ff0000;
+         }
+         #second{display:none;}
+
+    </style>
+</head>
+
+<body>
+    <header  class=" bg-primary ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a style="color:#fff;" class="navbar-brand " href="#">M-Health</a>
+            <button style="background:#fff;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+    </header>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<body>
+    <div class="container">
+        <div class="row">
+			<div class="col-md-5 mx-auto">
+			<div id="first">
+				<div class="myform form ">
+					 <div class="logo mb-3">
+						 <div class="col-md-12 text-center">
+							<h1>Login</h1>
+						 </div>
+					</div>
+                   <form action="home.html" method="post" name="login">
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Card No.</label>
+                              <input type="username" name="card_No"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Card Number">
+                           </div>
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Password</label>
+                              <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                           </div>
+                           <div class="form-group">
+                              <p class="text-center"> <a href="#"></a></p>
+                           </div>
+                           <div class="col-md-12 text-center ">
+                              <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                           </div>
+                        </form>
+                 
+				</div>
+			</div>
+			  
+		</div>
+      </div>   
+         
+</body>
+
+    <center>
+    <footer style="color: #fff; position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;" class="page-footer pt-4 font-small bg-primary ">
+        <div class="footer-copyright">
+        <p>&copy;2020 copyright:Team M-Health</p>
+    </div>    
+    </footer>
+</body>
+</html>

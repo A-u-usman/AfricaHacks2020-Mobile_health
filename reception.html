@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- set the width-->
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <!-- load font family of webage from googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=karla:wght@400;700&display=swap" rel="stylesheet">
+    <!--spacify the title-->
+    <title>Reception</title>
+    <style>
+        /* Reset box properties for all html tags*/
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        html{
+            background-color: hsl(204, 43%,93%);
+            padding:3rem 1.5rem;
+            font-family: 'karla', sans-serif;
+            font-size: 100%;
+            line-height: 1.5;
+        }
+        .main-container{
+            box-shadow: 0 0 10px 5px hsl(204, 43%,90%);
+            border-radius: 8px;
+            overflow: hidden;
+          /*  max-width: 39rem; */
+        }
+        .community-block{
+            background-color: white;
+            padding:1.5rem;
+        }
+        .community-block .heading{
+            font-size: 1.5rem;
+            color:hsl(179, 62%,43%);
+            margin-bottom: 1rem;
+        }
+        .community-block .subheading{
+            font-size: 1.1rem;
+            color:hsl(71, 73%,54%);
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        .community-block .description{
+            color:hsl(218, 22%, 67%);
+            line-height: 2;
+        }
+        .subscription-block{
+            background-color: hsl(179, 62%,43%);
+            padding: 1.5rem;
+        }
+        .subscription-block .heading{
+            font-size: 1.3rem;
+            color:white;
+            margin-bottom: 0.5rem;
+            font-weight: normal;
+        }
+        .subscription-block .amount{
+            font-size: 1.5rem;
+            color: white;
+            padding-right: 0.5rem;
+            vertical-align: middle;
+        }
+        .subscription-block .description{
+            color: hsl(204, 43%,93%);
+        }
+        .cta{
+            color: white;
+            background-color: hsl(71, 73%,54%);
+            width:100% ;
+          
+            font-weight: bold;
+            border-radius: 6px;
+            line-height: 3rem;
+            display:block;
+            text-align:center;
+            text-decoration:none;
+        }
+        .why-us-block{
+            background-color: hsl(179, 52%,53%);
+            padding: 1.5rem;
+        }
+        .why-us-block .heading{
+            font-size: 1.3rem;
+            color:white;
+            margin-bottom: 1rem;
+            font-weight:normal;
+        }
+        .why-us-block .list{
+            list-style-type: none;
+            padding-left: 0;
+            color:hsl(204, 43%,90%);
+        }
+        form{
+            padding:5rem;
+        }
+        form div{
+            margin:2rem;
+            
+        }
+        div input{
+            height: 2rem;
+        }
+        table{
+            border:solid;
+            border-color: hsl(204, 43%,90%);
+        }
+        td,th{
+            padding:10px ;
+            text-align: justify;
+        }
+        @media screen and (min-width: 670px) {
+            .row{
+                display: flex;
+            }
+            .row .block{
+                width: 50%;
+            }
+            }
+           
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="script" href="js/bootstrap.js">
+    <link rel="script" href="js/bootstrap.bundle.js">
+    <link rel="script" href="js/bootstrap.bundle.min.js">
+    <link rel="script" href="js/bootstrap.min.js">
+    <link rel="script" href="jquery-3.5.1.slim.min.js">
+    <link rel="script" href="popper.min.js">
+
+</head>
+
+<body>
+    <header  class=" bg-primary ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a style="color:#fff;" class="navbar-brand " href="#">M-Health</a>
+            <button style="background:#fff;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+    </header>
+<center>
+    <main class="container">
+        <section class="community-block">
+            <h1 class="lead">federal Goverment health care system</h1>
+            <p class="lead">AI Receptionist</p>
+        <div class="">
+            <div class="row">
+               <div class="col-sm-6">   
+                <table class="table table-striped table-bordered">
+                    <thead class="btn-primary"><th colspan="3">Consultation progress</th></thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Patients List</th>
+                        <th>status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Muhammad musa</td>
+                        <td>1 (next to see doctor)</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Muhammad abdullahi</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </div>  
+            <div class="col-sm-6">
+                <table class="table table-striped table-bordered" >
+                    <thead class="btn-primary"><th colspan="3"> Waiting Room</th></thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Patients List</th>
+                        <th>status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Muhammad musa</td>
+                        <td>failed to meet schedule</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Muhammad abdullahi</td>
+                        <td>failed to meet schedule</td>
+                    </tr>
+                </table>
+            </div>
+            </div>    
+        </div>    
+  <p class="description">
+            </p>
+
+        </section>
+  
+    </main></center>
+    <footer style="color: #fff;  position: relative; left: 0; bottom: 0; width: 100%; text-align: center;" class="page-footer pt-4 font-small bg-primary ">
+        <div class="footer-copyright">
+        <p>&copy;2020 copyright:Team M-Health</p>
+    </div>    
+    </footer>
+</body>
+</html>
